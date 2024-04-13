@@ -95,6 +95,7 @@ class _CourseDetailsScreenState extends State<CourseDetailsScreen> {
                             return const Center(child: CircularProgressIndicator());
                           }
 
+
                           return Container(
                             padding: EdgeInsets.all(15.h),
                             decoration: AppDecoration.fillGray.copyWith(
